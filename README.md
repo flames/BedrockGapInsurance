@@ -1,0 +1,1 @@
+Plugin for bukkit & craftbukkit (Minecraft Server Mod). Fills in bedrock voids on level 0 and converts bedrock to stone on levels 1-4 (Flat bedrock)
