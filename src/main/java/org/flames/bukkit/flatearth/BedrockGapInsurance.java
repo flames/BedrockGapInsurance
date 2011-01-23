@@ -39,6 +39,6 @@ public class BedrockGapInsurance extends JavaPlugin {
             
             Configuration configuration = new Configuration(new File(this.getDataFolder(), "configuration.yml"));
     		configuration.load();
-            CheckRadius = configuration.getInt("check-radius", 8);
+            CheckRadius = configuration.getInt("radius", 8);
       }
 }
