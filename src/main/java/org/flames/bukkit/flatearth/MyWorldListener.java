@@ -1,5 +1,5 @@
 
-package org.flames.bukkit.flatearth;
+/*package org.flames.bukkit.flatearth;
 
 import java.util.logging.Logger;
 
@@ -32,4 +32,4 @@ public class MyWorldListener extends WorldListener {
             }
 
     }
-}
+}*/

@@ -16,7 +16,7 @@ import org.bukkit.util.config.Configuration;
 
 public class BedrockGapInsurance extends JavaPlugin {
 	private final MyPlayerListener playerListener = new MyPlayerListener(this);
-	private final MyWorldListener worldListener = new MyWorldListener(this);
+	//private final MyWorldListener worldListener = new MyWorldListener(this);
 	
 	public static int CheckRadius;
 	protected static final Logger log = Logger.getLogger("Minecraft");
@@ -35,7 +35,7 @@ public class BedrockGapInsurance extends JavaPlugin {
 
             PluginManager pm = getServer().getPluginManager();
             pm.registerEvent(Event.Type.PLAYER_MOVE, playerListener, Priority.Normal, this);
-            pm.registerEvent(Event.Type.CHUNK_LOADED, worldListener, Priority.Normal, this);
+            //pm.registerEvent(Event.Type.CHUNK_LOADED, worldListener, Priority.Normal, this);
             
             Configuration configuration = new Configuration(new File(this.getDataFolder(), "configuration.yml"));
     		configuration.load();
